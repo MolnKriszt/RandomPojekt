@@ -17,6 +17,7 @@ namespace Teszt3
             tt.Test();
             NumberTest nt = new NumberTest();
             nt.Test();
+            Console.WriteLine("helo");
 
             Console.ReadLine();
         }
