@@ -8,10 +8,15 @@ namespace Test3
 {
     static internal partial class MyRandom
     {
-        static public void RandomNumber()
+        static public void RandomNumber1()
         {
-            Console.WriteLine("RandomNumber asdasd 123");
+            Console.WriteLine("RandomNumber1");
             
+        }
+        static public void RandomNumber2()
+        {
+            Console.WriteLine("RandomNumber2");
+
         }
 
     }
