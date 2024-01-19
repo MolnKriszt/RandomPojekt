@@ -10,7 +10,8 @@ namespace Test3
     {
         internal void Test()
         {
-            MyRandom.randomText();
+            //MyRandom.randomText();
+            MyRandom.randomText2();
         }
     }
 }
