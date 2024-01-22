@@ -17,7 +17,7 @@ namespace Teszt3
             tt.Test();
             NumberTest nt = new NumberTest();
             nt.Test();
-            Console.WriteLine("helo szia Juhász Gergő");
+            Console.WriteLine("helo szia Juhász Gergő asd");
 
             Console.ReadLine();
         }
