@@ -31,6 +31,7 @@ namespace Teszt3
             Console.WriteLine("lékgfh");
             Console.WriteLine("asd");
             Console.WriteLine("asd");
+            Console.WriteLine( "asasd" );
             Console.WriteLine("asd");
             Console.ReadLine();
         }
