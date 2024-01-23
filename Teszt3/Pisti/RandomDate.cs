@@ -10,7 +10,7 @@ namespace Test3
     {
         static public void RandomDate()
         {
-            Console.WriteLine("RandomDate asd");
+            Console.WriteLine("RandomDate");
         }
     }
 }

@@ -17,22 +17,7 @@ namespace Teszt3
             tt.Test();
             NumberTest nt = new NumberTest();
             nt.Test();
-            Console.WriteLine("helo szia");
-            Console.WriteLine( "Gergő" );
-            Console.WriteLine("Pisti ");
-            Console.WriteLine("dsa");
-            Console.WriteLine("asd");
-            Console.WriteLine("ert");
-            Console.WriteLine("qwe");
-            Console.WriteLine("Gyuri");
-            Console.WriteLine( "Gergő" );
-            Console.WriteLine("faszgeci");
-            Console.WriteLine("teszt2");
-            Console.WriteLine("lékgfh");
-            Console.WriteLine("asd");
-            Console.WriteLine("asd");
-            Console.WriteLine( "asasd" );
-            Console.WriteLine("asd");
+            
             Console.ReadLine();
         }
     }
