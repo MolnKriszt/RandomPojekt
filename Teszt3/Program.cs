@@ -19,6 +19,7 @@ namespace Teszt3
             nt.Test();
             Console.WriteLine("helo szia");
             Console.WriteLine("dsa");
+            Console.WriteLine("asd");
 
             Console.ReadLine();
         }
