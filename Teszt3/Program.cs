@@ -28,6 +28,7 @@ namespace Teszt3
             Console.WriteLine( "Gergő" );
             Console.WriteLine("faszgeci");
             Console.WriteLine("lékgfh");
+            Console.WriteLine("asd");
 
             Console.ReadLine();
         }
