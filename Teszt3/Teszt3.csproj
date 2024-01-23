@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Krisztián\EtelekRandom.cs" />
+    <Compile Include="Krisztián\EtelekTest.cs" />
     <Compile Include="Pisti\DateTest.cs" />
     <Compile Include="Gergő\NumberRandom.cs" />
     <Compile Include="Gergő\NumberTest.cs" />
