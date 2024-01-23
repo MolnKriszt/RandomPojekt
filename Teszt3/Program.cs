@@ -20,6 +20,8 @@ namespace Teszt3
             Console.WriteLine("helo szia");
             Console.WriteLine( "Gergő" );
             Console.WriteLine("Pisti ");
+            Console.WriteLine("dsa");
+            Console.WriteLine("asd");
 
             Console.ReadLine();
         }
