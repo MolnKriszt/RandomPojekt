@@ -22,6 +22,10 @@ namespace Teszt3
             Console.WriteLine("Pisti ");
             Console.WriteLine("dsa");
             Console.WriteLine("asd");
+            Console.WriteLine("ert");
+            Console.WriteLine("qwe");
+            Console.WriteLine("Gyuri");
+            Console.WriteLine( "Gergő" );
 
             Console.ReadLine();
         }

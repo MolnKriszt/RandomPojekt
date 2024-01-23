@@ -12,5 +12,13 @@ namespace Test3
         {
             Console.WriteLine("RandomText");
         }
+        static public void randomText2()
+        {
+            Console.WriteLine("RandomText2");
+        }
+        static public void randomText3()
+        {
+            Console.WriteLine("RandomText3");
+        }
     }   
 }
