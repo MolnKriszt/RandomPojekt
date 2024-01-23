@@ -30,7 +30,7 @@ namespace Teszt3
             Console.WriteLine("teszt2");
             Console.WriteLine("lékgfh");
             Console.WriteLine("asd");
-
+            Console.WriteLine("asd");
             Console.ReadLine();
         }
     }
