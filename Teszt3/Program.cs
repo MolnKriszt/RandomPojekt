@@ -20,6 +20,7 @@ namespace Teszt3
             Console.WriteLine("helo szia");
             Console.WriteLine("dsa");
             Console.WriteLine("asd");
+            Console.WriteLine("qwe");
 
             Console.ReadLine();
         }
