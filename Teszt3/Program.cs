@@ -18,7 +18,7 @@ namespace Teszt3
             NumberTest nt = new NumberTest();
             nt.Test();
             Console.WriteLine("helo szia");
-
+            Console.WriteLine("Krisztán");
             Console.ReadLine();
         }
     }
