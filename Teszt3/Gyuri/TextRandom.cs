@@ -11,6 +11,12 @@ namespace Test3
         static public void randomText()
         {
             Console.WriteLine("RandomText");
+
+            int wordCount = 20;
+            int sentenceCount = 5;
+            int wordsPerSentenceMin = 3;
+            int wordsPerSentenceMax = 8;
+            int paragraphCount = 3;
         }
     }   
 }
