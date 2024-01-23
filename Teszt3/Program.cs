@@ -19,7 +19,7 @@ namespace Teszt3
             nt.Test();
             Console.WriteLine("helo szia");
             Console.WriteLine( "Gergő" );
-            Console.WriteLine("Pisti");
+            Console.WriteLine("Pisti ");
 
             Console.ReadLine();
         }
