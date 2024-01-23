@@ -18,6 +18,9 @@ namespace Teszt3
             NumberTest nt = new NumberTest();
             nt.Test();
             Console.WriteLine("helo szia");
+            Console.WriteLine("dsa");
+            Console.WriteLine("asd");
+            Console.WriteLine("ert");
             Console.WriteLine("Gyuri");
             Console.WriteLine( "Gergő" );
 
