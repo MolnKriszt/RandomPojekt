@@ -27,6 +27,7 @@ namespace Teszt3
             Console.WriteLine("Gyuri");
             Console.WriteLine( "Gergő" );
             Console.WriteLine("faszgeci");
+            Console.WriteLine("teszt2");
             Console.WriteLine("lékgfh");
             Console.WriteLine("asd");
 
