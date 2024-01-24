@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Teszt3.Krisztián
+namespace Test3
 {
-    internal class EtelekRandom
+    internal class FoodTest
     {
+        internal void Test()
+        {
+            FoodRandom.RandomFood();
+        }
     }
 }

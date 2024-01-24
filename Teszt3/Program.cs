@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Test3;
 
-namespace Teszt3
+namespace Test3
 {
     internal class Program
     {
@@ -17,6 +17,8 @@ namespace Teszt3
             tt.Test();
             NumberTest nt = new NumberTest();
             nt.Test();
+            FoodTest ft = new FoodTest();
+            ft.Test();
             
             Console.ReadLine();
         }
