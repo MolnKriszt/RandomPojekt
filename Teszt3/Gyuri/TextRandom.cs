@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,20 +15,32 @@ namespace Test3
         {
             Console.WriteLine("RandomText");
 
-        //    string[] wordList = ReadWordListFromFile("word.txt");
-
-        //    if (wordList.Length > 0 ) 
-        //    {
-        //        Console.WriteLine("Szólista: " + string.Join(", ", wordList));
-        //    }
+            int maxWords = 10;
 
 
+            string[] wordList = ReadWordListFromFile("word.txt", maxWords);
 
-        //}
+            if (wordList.Length > 0)
+            {
+                Console.WriteLine("Szólista:  " + string.Join(", ", wordList));
+            }
+        }
 
-        //static string[] ReadWordListFromFile(string word)
-        //{
-        //    throw new NotImplementedException();
+        static string[] ReadWordListFromFile(string word,int maxWords)
+        {
+            string[] sorok = File.ReadAllLines(word);
+
+            var words = new List<string>();
+
+            var random = new Random();
+            sorok = sorok.OrderBy(x => random.Next()).ToArray();
+
+            for (int i = 0; i < sorok.Length && i < maxWords; i++)
+            {
+                words.Add(sorok[i]);
+            }
+           
+            return words.ToArray();
         }
     }   
 }
