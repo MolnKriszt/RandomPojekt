@@ -10,7 +10,12 @@ namespace Test3
     {
         static public void RandomDate()
         {
-            Console.WriteLine("RandomDate");
+            Console.WriteLine("Random Date Time");
+
+            //var randomTest = new Random();
+            //TimeSpan timeSpan = endDate - startDate;
+            //TimeSpan newSpan = new TimeSpan(0, randomTest.Next(0, (int)timeSpan.TotalDays), 0);
+
         }
     }
 }
