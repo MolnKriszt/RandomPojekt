@@ -29,12 +29,8 @@ namespace Test3
             Console.WriteLine("\nVéletlenszerű tizedes számok:");
             foreach (var number in randomDecimals)
             {
-                Console.WriteLine(number);
+                Console.WriteLine(number.ToString("0.00"));
             }
-
-            //double randomTizedesSzam = random.NextDouble();
-
-            //Console.WriteLine("\nVéletlenszerű tizedes szám: " + randomTizedesSzam);
 
             Console.ReadLine();
             
