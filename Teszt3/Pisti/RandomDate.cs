@@ -10,7 +10,21 @@ namespace Test3
     {
         static public void RandomDate()
         {
-            Console.WriteLine("RandomDate");
+            DateTime randomDate = GenerateRandomDate();
+
+            Console.WriteLine("Random date: ", randomDate.ToString("yyyy-MM-dd"));
+
+        }
+
+        private static DateTime GenerateRandomDate()
+        {
+            DateTime start = DateTime(2000, 1, 1);
+            DateTime end = DateTime.Now;
+            Random random = new Random();
+            int randomDays = random.Next((end - start).Days + 1);
+            DateTime randomDate = start.AddDays(randomDays);
+
+            return randomDate;
         }
     }
 }
