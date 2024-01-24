@@ -21,6 +21,21 @@ namespace Test3
                 Console.Write(number + " ");
             }
 
+
+            var randomDecimals = Enumerable.Range(1, 2)
+                .Select(_ => random.NextDouble())
+                .ToArray();
+
+            Console.WriteLine("\nVéletlenszerű tizedes számok:");
+            foreach (var number in randomDecimals)
+            {
+                Console.WriteLine(number);
+            }
+
+            //double randomTizedesSzam = random.NextDouble();
+
+            //Console.WriteLine("\nVéletlenszerű tizedes szám: " + randomTizedesSzam);
+
             Console.ReadLine();
             
         }
