@@ -8,6 +8,9 @@ namespace Test3
 {
     static internal partial class MyRandom
     {
+
+
+
         static public void RandomDate()
         {
             DateTime randomDate = GenerateRandomDate();
@@ -18,7 +21,7 @@ namespace Test3
 
         private static DateTime GenerateRandomDate()
         {
-            DateTime start = DateTime(2000, 1, 1);
+            DateTime start = new DateTime(2000,1,1);
             DateTime end = DateTime.Now;
             Random random = new Random();
             int randomDays = random.Next((end - start).Days + 1);
