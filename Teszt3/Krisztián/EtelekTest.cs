@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test3
+namespace Teszt3.Krisztián
 {
-    internal class TextTest
+    internal class EtelekTest
     {
-        internal void Test()
-        {
-            MyRandom.randomText();
-
-        }
     }
 }
