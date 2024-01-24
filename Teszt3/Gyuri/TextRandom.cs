@@ -13,10 +13,35 @@ namespace Test3
         internal static string[] wordList;
          static MyRandom()
         {
-            if (  ) { }
+           langChange(lang);
         }
 
+        internal static void langChange(string plang) {
+            lang = plang;
+            beolvasGyuri();
+            beolvasKrisztian();
+        }
 
+        private static void beolvasKrisztian()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void beolvasGyuri()
+        {
+            if (lang == "en")
+            {
+                wordList = File.ReadAllLines("word.txt");
+            }
+            else if (lang == "hu")
+            {
+                wordList = File.ReadAllLines("word.txt");
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
         static public void randomText()
         {
             Console.WriteLine("RandomText");
