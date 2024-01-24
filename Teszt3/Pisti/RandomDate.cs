@@ -10,12 +10,21 @@ namespace Test3
     {
         static public void RandomDate()
         {
-            Console.WriteLine("Random Date Time");
+            DateTime randomDate = GenerateRandomDate();
 
-            //var randomTest = new Random();
-            //TimeSpan timeSpan = endDate - startDate;
-            //TimeSpan newSpan = new TimeSpan(0, randomTest.Next(0, (int)timeSpan.TotalDays), 0);
+            Console.WriteLine("Random date: ", randomDate.ToString("yyyy-MM-dd"));
 
+        }
+
+        private static DateTime GenerateRandomDate()
+        {
+            DateTime start = DateTime(2000, 1, 1);
+            DateTime end = DateTime.Now;
+            Random random = new Random();
+            int randomDays = random.Next((end - start).Days + 1);
+            DateTime randomDate = start.AddDays(randomDays);
+
+            return randomDate;
         }
     }
 }
