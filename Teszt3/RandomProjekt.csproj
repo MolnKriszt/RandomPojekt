@@ -56,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Gergő\Gergo.md" />
+    <None Include="Krisztián\Krisztian.md" />
+    <None Include="Pisti\Pisti.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Gyuri\Gyuri.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
