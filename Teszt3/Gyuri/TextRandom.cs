@@ -4,10 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Teszt3;
 
 namespace Test3
 {
-    static internal partial class MyRandom
+    static internal partial class MyRandom 
 
     {
         internal static string[] wordList;
