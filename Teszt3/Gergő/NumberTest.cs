@@ -10,8 +10,7 @@ namespace Test3
     {
         internal void Test()
         {
-            //MyRandom.RandomNumber1();
-            MyRandom.RandomNumber2();
+            MyRandom.RandomNumber();
         }
     }
 }

@@ -8,16 +8,21 @@ namespace Test3
 {
     static internal partial class MyRandom
     {
-        static public void RandomNumber1()
+        static public void RandomNumber()
         {
-            Console.WriteLine("RandomNumber1");
+            Random random = new Random();
+
+            var randomNumbers = Enumerable.Range(1, 10)
+                                          .Select(_ => random.Next(1, 101));
+
+            Console.WriteLine("Véletlen számok:");
+            foreach (var number in randomNumbers)
+            {
+                Console.Write(number + " ");
+            }
+
+            Console.ReadLine();
             
         }
-        static public void RandomNumber2()
-        {
-            Console.WriteLine("RandomNumber2");
-
-        }
-
     }
 }
