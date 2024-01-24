@@ -10,7 +10,13 @@ namespace Test3
     static internal partial class MyRandom
 
     {
-        
+        internal static string[] wordList;
+         static MyRandom()
+        {
+            if (  ) { }
+        }
+
+
         static public void randomText()
         {
             Console.WriteLine("RandomText");

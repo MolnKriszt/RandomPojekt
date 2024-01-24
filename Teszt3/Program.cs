@@ -11,6 +11,8 @@ namespace Test3
     {
         static void Main(string[] args)
         {
+            MyRandom.lang = "en";
+
             DateTest dt = new DateTest();
             dt.Test();
             TextTest tt = new TextTest();
