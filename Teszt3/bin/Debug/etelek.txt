@@ -1,0 +1,248 @@
+1;Spárgakrémleves
+2;Lazacos quiche
+3;Áfonyás mascarpone krémes
+4;Citromos mentatea
+1;Csicseriborsó leves
+2;Gombás rakott karfiol
+3;Mogyorókrémes fánk
+4;Piros gyümölcs limonádé
+1;Borsópogácsa leves
+2;Csirkemáj sherryvel
+3;Cseresznyés tiramisu
+4;Friss őszibaracklé
+1;Zöldspárga krémleves
+2;Rakott cukkini csirkével
+3;Epres mousse torta
+4;Almás bodzalekvár
+1;Korianderes sárgarépa leves
+2;Baconbe tekert csirkemell burgonyarózsákkal
+3;Datolyás panna cotta
+4;Eper-bazsalikom shake
+1;Zellerkrémleves pisztáciával
+2;Sült kárpáti ponty diós krumplival
+3;Málnás kókuszkuglóf
+4;Citrusos ginger ale
+1;Brokkolileves füstölt lazaccal
+2;Vegetáriánus padlizsánlasagne
+3;Mogyorókrémes meggytorta
+4;Citromfüves áfonya smoothie
+1;Kukoricakrémleves
+2;Tárkonyos csirkecomb sült zöldségekkel
+3;Pisztáciás eperrolád
+4;Gyömbéres narancslé
+1;Paradicsomos rizottó leves
+2;Sült mangalicaoldalas szezámmagos brokkolival
+3;Kókuszos banánkrém torta
+4;Jázmin rózsavíz
+1;Lencsés paradicsomleves
+2;Lisztes kacsacomb
+3;Citromos-málnás sajttorta
+4;Áfonyás hibiszkuszlé
+1;Zöldhagyma krémleves
+2;Mézes-mustáros csirkemell rozmaringos burgonyával
+3;Epres kókuszgolyók
+4;Őszibarack-jázmin tea
+1;Gyümölcsragu leves
+2;Rántott marhapofa jázminrizsvel
+3;Mogyorókrémes-banános palacsinta
+4;Bodzás limonádé
+1;Cukkinikrém leves pirított tökmaggal
+2;Grillezett lazac spárgával
+3;Málnás-csokis rizsfelfújt
+4;Citromos menta shake
+1;Gombás tejfölleves
+2;Zöldséges tojásrántotta
+3;Diós gesztenyepüré
+4;Fekete ribizlis ásványvíz
+1;Köményes répaleves
+2;Csirke steak zöldségágyon
+3;Mályvacukros pillecukor
+4;Citromos gyömbér-méz tea
+1;Fokhagymás csicsókaleves
+2;Sült mangalicakaraj sült alma-pézsma burgonyával
+3;Epres-mákos rétes
+4;Őszibarack-lime frappé
+1;Spenótleves pirított mandulával
+2;Fűszeres mangalicaborda füstölt lencsével
+3;Kókuszos-csokis banánkenyér
+4;Citrusos hibiszkuszlimonádé
+1;Zöldséges kókuszkrémleves
+2;Borjúpörkölt sütőtökös édesburgonyapürével
+3;Málnás citromhab
+4;Bazsalikomos citromfű tea
+1;Sütőtökös paradicsomleves
+2;Zöldséges quinoa saláta
+3;Mogyorós datolyagolyók
+4;Menta lime frissítő
+1;Hagymás zöldborsó krémleves
+2;Csirkemell rozmaringos aszalt szilvával
+3;Epres-kókuszos mousse
+4;Citromos mentolos limonádé
+1;Gombás-paradicsomos leves
+2;Lazacfilé édesburgonyapürével
+3;Mályvacukoros kávékrém
+4;Narancsos mézes gyömbértea
+1;Krumplis gombaleves
+2;Fűszeres csirkemell édesburgonyachips-szel
+3;Banános-chiás palacsinta
+4;Áfonya-jázmin üdítő
+1;Sárgabarack leves vaníliakrémmel
+2;Mangalica szűzérmék fűszeres grillezett zöldségekkel
+3;Diós almás pite
+4;Citromos bodzatea
+1;Tárkonyos cukkinikrém leves
+2;Rántott hallibut szezámmagos körettel
+3;Citromos-tejfölös gyümölcstorta
+4;Piros alma-lime limonádé
+1;Gulyásleves
+2;Csirkemell rizzsel
+3;Csokoládéfagylalt
+4;Kávé
+1;Paradicsomleves
+2;Lazac steak
+3;Tiramisu
+4;Tea
+1;Zöldborsóleves
+2;Sült kacsacomb
+3;Málna panna cotta
+4;Frissen facsart narancslé
+1;Húsleves gazdagon
+2;Vegetáriánus pizza
+3;Almás pite
+4;Smoothie
+1;Gombaleves
+2;Töltött paprika
+3;Vaníliafagylalt
+4;Üdítő
+1;Tojásleves
+2;Pörkölt tészta
+3;Eperdzsem palacsinta
+4;Sör
+1;Bableves baconnel
+2;Sushi variációk
+3;Pistáciás tiramisu
+4;Gyümölcsös limonádé
+1;Karfiolleves
+2;Roston sült hal
+3;Puncs szelet
+4;Üveges bor
+1;Libaleves
+2;Húsos taco
+3;Mangós fagylalt
+4;Kóla
+1;Lencseleves
+2;Sertésborda sült burgonyával
+3;Epres pavlova
+4;Jégkávé
+1;Zöldségleves
+2;Mexikói csirke quesadilla
+3;Mákos guba
+4;Cappuccino
+1;Halászlé
+2;Ratatouille
+3;Túrós táska
+4;Limonádé
+1;Brokkolikrémleves
+2;Beef stroganoff
+3;Rumos csokoládétorta
+4;Ásványvíz
+1;Krumplileves
+2;Gyros pita
+3;Mangós túrótorta
+4;Jázmin tea
+1;Erőleves
+2;Csirkepaprikás galuskával
+3;Citromhab
+4;Frappuccino
+1;Sárgabarackleves
+2;Sült kolbász körettel
+3;Pina colada pohárkrém
+4;Ginger ale
+1;Karalábéleves
+2;Padlizsán lasagne
+3;Mogyorós csokis gofri
+4;Cseresznyelikőr
+1;Cukkini krémleves
+2;Fokhagymás garnélarák
+3;Ricottás eperrolád
+4;Áfonyalé
+1;Hagymaleves
+2;Steak béarnaise szósszal
+3;Csokis brownie
+4;Mojito
+1;Parajleves
+2;Pulykamedállion édesburgonyával
+3;Sárgabarackos pite
+4;Maláta
+1;Cézár saláta leves
+2;Rizottó gombával
+3;Fagylalttorta
+4;Mintás limonádé
+1;Gyümölcsleves
+2;Rántott csirkemell
+3;Málnás palacsinta
+4;Kókuszvíz
+1;Hideg uborkaleves
+2;Mexikói babgulyás
+3;Pistáciás rolád
+4;Gyógytea
+1;Kapros krumplileves
+2;Csirke teriyaki
+3;Datolyás túrógombóc
+4;Eper shake
+1;Tárkonyos paradicsomleves
+2;Vegetáriánus lasagne
+3;Mangó puding
+4;Almabor
+1;Tejfölös káposztaleves
+2;Bolognai spagetti
+3;Málnakrémes torta
+4;Cukormentes üdítő
+1;Hideg gyümölcsleves
+2;Lecsós csirkecomb
+3;Kókuszos csokitorta
+4;Borostyánkő tea
+1;Borsópüré leves
+2;Halpaprikás
+3;Narancsos panna cotta
+4;Zöld tea
+1;Gyümölcssaláta
+2;Csirkemell gyümölcsöntettel
+3;Kekszes túrótorta
+4;Cseresznyelimonádé
+1;Céklaleves
+2;Vegetáriánus burger
+3;Mogyorós csokoládés palacsinta
+4;Pezsgő
+1;Kukoricaleves
+2;Csirke curry rizzsel
+3;Mandulás szelet
+4;Frissen facsart citromlé
+1;Borzaszószos húsleves
+2;Padlizsán parmigiana
+3;Málna sorbet
+4;Barackpálinka
+1;Hideg almaleves
+2;Krémes spenótfőzelék
+3;Diós linzer
+4;Eperfröccs
+1;Gulyásleves galuskával
+2;Rántott hal burgonyasalátával
+3;Epres piskóta
+4;Kamillatea
+1;Zöldbableves
+2;Marhapörkölt tarhonyával
+3;Csokis gesztenyetorta
+4;Barackjoghurt
+1;Paradicsomos cukkini leves
+2;Pikáns csirkefalatok
+3;Áfonyás tiramisu
+4;Citromos limonádé
+1;Tárkonyos húsleves
+2;Brokkolis sajtos muffin
+3;Datolyás-mogyorós pite
+4;Szénsavas ásványvíz
+1;Karfiolkrémleves
+2;Gyümölcsös csirke curry
+3;Tejfölös meggyes pite
+4;Citromhabos gyömbértea

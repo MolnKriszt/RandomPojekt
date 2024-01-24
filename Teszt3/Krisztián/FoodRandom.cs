@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Test3
 {
-    static internal partial class FoodRandom
+    static internal partial class MyRandom
     {
+        internal static string lang = "hu";
+
         static public void RandomFood()
         {
-            Console.WriteLine("RandomFood");
+            
         }
     }
 }
