@@ -1,1 +1,35 @@
-﻿
+﻿# Véletlen számok
+## Függvények:
+### Veletlen szám
+- RandomInt()
+	* Generál egy teljesen véletlen egész számot és azt visszadja.
+
+- RandomDouble()
+	* Generál egy telejsen véletlen nem egész számot és azt visszadja.
+### Veletlen szám értékeke között
+- RandomIntBetween()
+	* Generál egy random egész számot két adott érték között amiket be adunk neki és a kapott számot visszadja.
+
+- RandomDoubleBetween()
+	* Generál egy random nem egész számot két adott érték között amiket be adunk neki és a kapott számot visszadja.
+### Véletlen számlista
+- RandomIntList()
+	* Generál egy random egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
+
+- RandomIntListRecurring()
+	* Generál egy random egész számokból álló listát. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
+
+- RandomDoubleList()
+	* Generál egy random nem egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
+
+- RandomIntListRecurring()
+	* Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
+
+- RandomIntListBetween()
+	* Generál egy random egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. Hogyha az első érték (hány számból álljon) nagyobb mint a második és a harmadik különbsége akkor írjon ki hibaüzenetet.
+
+- RandomIntListBetweenRecurring()
+	* Generál egy random egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. 
+
+- RandomDoubleListBetweenRecurring()
+    * Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. Hogyha az első érték (hány számból álljon) nagyobb mint a második és a harmadik különbsége akkor írjon ki hibaüzenetet.
