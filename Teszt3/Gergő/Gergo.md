@@ -22,14 +22,16 @@
 - RandomDoubleList()
 	* Generál egy random nem egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
 
-- RandomIntListRecurring()
+- RandomDoubleListRecurring()
 	* Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
-
-- RandomIntListBetween()
-	* Generál egy random egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. Hogyha az első érték (hány számból álljon) nagyobb mint a második és a harmadik különbsége akkor írjon ki hibaüzenetet.
 
 - RandomIntListBetweenRecurring()
 	* Generál egy random egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. 
 
+- RandomIntListBetween()
+	* Generál egy random egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. Hogyha az első érték (hány számból álljon) nagyobb mint a második és a harmadik különbsége akkor írjon ki hibaüzenetet.
+
 - RandomDoubleListBetweenRecurring()
-    * Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. Hogyha az első érték (hány számból álljon) nagyobb mint a második és a harmadik különbsége akkor írjon ki hibaüzenetet.
+    * Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. 
+
+# Ha valamit nem értesz írj rám.
