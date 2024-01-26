@@ -10,7 +10,7 @@ namespace Test3
     {
         internal void Test()
         {
-            MyRandom.RandomFood();
+            Console.WriteLine($"{MyRandom.RandomFood().Item2}");
         }
     }
 }
