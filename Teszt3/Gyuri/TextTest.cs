@@ -12,7 +12,7 @@ namespace Test3
         {
             MyRandom.RandomWord(10);
 
-            MyRandom.RandomWordList(1);
+            //MyRandom.RandomWordList(1);
         }
     }
 }

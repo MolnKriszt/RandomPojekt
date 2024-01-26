@@ -24,8 +24,8 @@ namespace Test3
             TextReading();
             FoodReanding();
 
-            List<string> randomWordList = RandomWordList(1);
-            Console.WriteLine("Generált szólista: ");
+            //List<string> randomWordList = RandomWordList(1);
+            //Console.WriteLine("Generált szólista: ");
         }
 
 
@@ -75,30 +75,30 @@ namespace Test3
             return words.ToArray();
         }
 
-        public static List<string> RandomWordList(int wordCount)
-        {
-            List<string> randomWords = new List<string>();
-            int attempts = 0; 
+        //public static List<string> RandomWordList(int wordCount)
+        //{
+        //    List<string> randomWords = new List<string>();
+        //    int attempts = 0; 
 
-            while (randomWords.Count < wordCount && attempts < wordList.Length)
-            {
-                string word = RandomWord();
-                if (!randomWords.Contains(word))
-                {
-                    randomWords.Add(word);
-                }
-                else
-                {
-                    attempts++;
-                }
-            }
-            return randomWords;
-        }
+        //    while (randomWords.Count < wordCount && attempts < wordList.Length)
+        //    {
+        //        string word = RandomWord();
+        //        if (!randomWords.Contains(word))
+        //        {
+        //            randomWords.Add(word);
+        //        }
+        //        else
+        //        {
+        //            attempts++;
+        //        }
+        //    }
+        //    return randomWords;
+        //}
 
 
-        public static string RandomWord()
-        {
-            return wordList[random.Next(wordList.Length)] ;
-        }
+        //public static string RandomWord()
+        //{
+        //    return wordList[random.Next(wordList.Length)] ;
+        //}
     }   
 }
