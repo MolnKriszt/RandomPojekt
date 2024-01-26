@@ -34,11 +34,11 @@ namespace Test3
         {
             if (lang == "en")
             {
-                wordList = File.ReadAllLines("word.txt");
+                wordList = File.ReadAllLines("enword.txt");
             }
             else if (lang == "hu")
             {
-                wordList = File.ReadAllLines("word.txt");
+                wordList = File.ReadAllLines("huword.txt");
             }
         }
 
