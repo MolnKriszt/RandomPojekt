@@ -10,7 +10,13 @@ namespace Test3
     {
         internal void Test()
         {
-            MyRandom.RandomDate();
+
+
+            //DateTime randomDate = RequestedDate;
+
+            //Console.WriteLine($"Generált random dátum évvel {year}: {randomDate.ToString("yyyy-MM-dd")}");
+
+
         }
     }
 }
