@@ -11,12 +11,12 @@ namespace Test3
     {
         internal static string lang = "hu";
 
-        public static List<Tuple<int, string>> foodlist { get; } = new List<Tuple<int, string>>();
+        public static List<Tuple<int, string>> foodlist = new List<Tuple<int, string>>();
         internal static void FoodReading()
         {
             if (lang == "en")
             {
-                string[] lines = File.ReadAllLines("etelek.txt");
+                string[] lines = File.ReadAllLines("hufoods.txt");
                 foreach (var line in lines)
                 {
                     string[] columns = line.Split(';');
@@ -27,7 +27,7 @@ namespace Test3
             }
             else if (lang == "hu")
             {
-                string[] lines = File.ReadAllLines("etelek.txt");
+                string[] lines = File.ReadAllLines("hufoods.txt");
                 foreach (var line in lines)
                 {
                     string[] columns = line.Split(';');
@@ -38,9 +38,15 @@ namespace Test3
             }
         }
 
-        static public void RandomFood()
+        static public Tuple<int,string> RandomFood()
         {
-            
+            if (foodlist.Count == 0)
+            {
+                return null;
+            }
+            Random random = new Random();
+            int randomIndex = random.Next(0, foodlist.Count);
+            return foodlist.ElementAt(randomIndex);
         }
     }
 }
