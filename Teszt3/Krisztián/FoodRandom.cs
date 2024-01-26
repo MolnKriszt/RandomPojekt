@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,9 +11,42 @@ namespace Test3
     {
         internal static string lang = "hu";
 
-        static public void RandomFood()
+        public static List<Tuple<int, string>> foodlist = new List<Tuple<int, string>>();
+        internal static void FoodReading()
         {
-            
+            if (lang == "en")
+            {
+                string[] lines = File.ReadAllLines("hufoods.txt");
+                foreach (var line in lines)
+                {
+                    string[] columns = line.Split(';');
+                    int type = int.Parse(columns[0]);
+                    string food = columns[1];
+                    foodlist.Add(new Tuple<int,string>(type, food));
+                }
+            }
+            else if (lang == "hu")
+            {
+                string[] lines = File.ReadAllLines("hufoods.txt");
+                foreach (var line in lines)
+                {
+                    string[] columns = line.Split(';');
+                    int type = int.Parse(columns[0]);
+                    string food = columns[1];
+                    foodlist.Add(new Tuple<int, string>(type, food));
+                }
+            }
+        }
+
+        static public Tuple<int,string> RandomFood()
+        {
+            if (foodlist.Count == 0)
+            {
+                return null;
+            }
+            Random random = new Random();
+            int randomIndex = random.Next(0, foodlist.Count);
+            return foodlist.ElementAt(randomIndex);
         }
     }
 }
