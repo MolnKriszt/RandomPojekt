@@ -12,7 +12,7 @@ namespace Test3
         internal static string lang = "hu";
 
         public static List<Tuple<int, string>> foodlist { get; } = new List<Tuple<int, string>>();
-        internal static void FoodReanding()
+        internal static void FoodReading()
         {
             if (lang == "en")
             {
