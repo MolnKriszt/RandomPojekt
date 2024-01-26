@@ -16,7 +16,7 @@ namespace Test3
         {
             if (lang == "en")
             {
-                string[] lines = File.ReadAllLines("hufoods.txt");
+                string[] lines = File.ReadAllLines("enfoods.txt");
                 foreach (var line in lines)
                 {
                     string[] columns = line.Split(';');
@@ -37,7 +37,10 @@ namespace Test3
                 }
             }
         }
-
+        /// <summary>
+        /// Generates a random food/drink
+        /// </summary>
+        /// <returns></returns>
         static public Tuple<int,string> RandomFood()
         {
             if (foodlist.Count == 0)

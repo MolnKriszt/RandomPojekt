@@ -13,14 +13,15 @@ namespace Test3
         {
             MyRandom.lang = "en";
 
+            FoodTest ft = new FoodTest();
+            ft.Test();
             DateTest dt = new DateTest();
             dt.Test();
             TextTest tt = new TextTest();
             tt.Test();
             NumberTest nt = new NumberTest();
             nt.Test();
-            FoodTest ft = new FoodTest();
-            ft.Test();
+            
             
             Console.ReadLine();
         }
