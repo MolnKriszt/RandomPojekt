@@ -22,7 +22,7 @@ namespace Test3
         {
             lang = plang;
             TextReading();
-            FoodReanding();
+            FoodReading();
 
             //List<string> randomWordList = RandomWordList(1);
             //Console.WriteLine("Generált szólista: ");
