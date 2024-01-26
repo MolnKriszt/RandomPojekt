@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Teszt3;
+
 
 namespace Test3
 {
@@ -19,16 +19,13 @@ namespace Test3
 
         internal static void langChange(string plang) {
             lang = plang;
-            beolvasGyuri();
-            beolvasKrisztian();
+            TextReading();
+            
         }
 
-        private static void beolvasKrisztian()
-        {
-            throw new NotImplementedException();
-        }
 
-        private static void beolvasGyuri()
+
+        public static void TextReading()
         {
             if (lang == "en")
             {
@@ -40,17 +37,15 @@ namespace Test3
             }
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        static public void randomText()
+
+        static public void RandomWord(int wordCount)
         {
             Console.WriteLine("RandomText");
 
-            int maxWords = 10;
+           
 
 
-            string[] wordList = ReadWordListFromFile("word.txt", maxWords);
+            string[] wordList = ReadWordListFromFile("word.txt", wordCount);
 
             if (wordList.Length > 0)
             {
@@ -58,7 +53,7 @@ namespace Test3
             }
         }
 
-        static string[] ReadWordListFromFile(string word,int maxWords)
+        static string[] ReadWordListFromFile(string word,int wordCount)
         {
             string[] sorok = File.ReadAllLines(word);
 
@@ -67,12 +62,14 @@ namespace Test3
             var random = new Random();
             sorok = sorok.OrderBy(x => random.Next()).ToArray();
 
-            for (int i = 0; i < sorok.Length && i < maxWords; i++)
+            for (int i = 0; i < sorok.Length && i < wordCount; i++)
             {
                 words.Add(sorok[i]);
             }
            
             return words.ToArray();
         }
+
+         
     }   
 }
