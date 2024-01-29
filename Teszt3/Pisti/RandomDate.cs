@@ -20,23 +20,26 @@ namespace Test3
 
             return randomDate;
         }
-        //private static readonly Random random = new Random();
+        private static readonly Random rand = new Random();
 
-        //public static DateTime RandomDateInYear(DateTime RequestedDate)
-        //{
-        //    if (RequestedDate >= DateTime.Now)
-        //    {
-        //        throw new ArgumentException("RequestedDate cannot be greater than or equal to the current date.");
-        //    }
+        public static DateTime RandomDateInYear(DateTime requestedDate)
+        {
+            if (requestedDate >= DateTime.Now)
+            {
+                throw new ArgumentException("RequestedDate cannot be greater than or equal to the current date.");
+            }
 
-        //    DateTime start = RequestedDate;
+            DateTime start = new DateTime(requestedDate.Year, 1, 1);
+            DateTime end = new DateTime(requestedDate.Year, 12, 31);
 
-        //    DateTime end = DateTime.Now;
+            int range = (end - start).Days;
 
-        //    int range = (end - start).Days;
+            Random rand = new Random();
+            int randomDays = rand.Next(range + 1);
 
-        //    int randomDays = random.Next(range + 1);
-        //    DateTime randomDate = start.AddDays(randomDays);
+            DateTime randomDate = start.AddDays(randomDays);
+
+            return randomDate;
 
 
         }
