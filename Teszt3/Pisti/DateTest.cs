@@ -8,16 +8,15 @@ namespace Test3
 {
     internal class DateTest
     {
-        private DateTime requestedDate;
-        private object year;
+
 
         internal void Test()
         {
 
 
-            DateTime randomDate = requestedDate;
+            int valami = 2000;
 
-            Console.WriteLine($"Generált random dátum évvel {year}: {randomDate.ToString("yyyy-MM-dd")}");
+            Console.WriteLine($"Generált random dátum évvel {valami}: {MyRandom.RandomDateInYear(valami).ToString("yyyy-MM-dd")}");
 
 
         }
