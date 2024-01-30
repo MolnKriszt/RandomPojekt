@@ -11,7 +11,9 @@ namespace Test3
     static internal partial class MyRandom 
 
     {
-        internal static string[] wordList;
+        public static string[] wordList;
+
+        
         //public static Random random = new Random();
         static MyRandom()
         {
@@ -50,11 +52,11 @@ namespace Test3
            
 
 
-            string[] wordList = ReadWordListFromFile("word.txt", wordCount);
+            string[] szavak = ReadWordListFromFile("huword.txt", wordCount);
 
-            if (wordList.Length > 0)
+            if (szavak.Length > 0)
             {
-                Console.WriteLine("Szólista:  " + string.Join(", ", wordList));
+                Console.WriteLine("Szólista:  " + string.Join(", ", szavak));
             }
         }
 
@@ -74,31 +76,5 @@ namespace Test3
            
             return words.ToArray();
         }
-
-        //public static List<string> RandomWordList(int wordCount)
-        //{
-        //    List<string> randomWords = new List<string>();
-        //    int attempts = 0; 
-
-        //    while (randomWords.Count < wordCount && attempts < wordList.Length)
-        //    {
-        //        string word = RandomWord();
-        //        if (!randomWords.Contains(word))
-        //        {
-        //            randomWords.Add(word);
-        //        }
-        //        else
-        //        {
-        //            attempts++;
-        //        }
-        //    }
-        //    return randomWords;
-        //}
-
-
-        //public static string RandomWord()
-        //{
-        //    return wordList[random.Next(wordList.Length)] ;
-        //}
     }   
 }
