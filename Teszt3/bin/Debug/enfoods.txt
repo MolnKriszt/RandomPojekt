@@ -1,0 +1,260 @@
+1;Chicken Noodle Soup
+2;Spaghetti Bolognese
+3;Chocolate Cake
+4;Orange Juice
+1;Tomato Soup
+2;Grilled Salmon
+3;Apple Pie
+4;Coffee
+1;Minestrone
+2;Beef Stir-Fry
+3;Vanilla Ice Cream
+4;Lemonade
+1;Miso Soup
+2;Chicken Alfredo
+3;Cheesecake
+4;Iced Tea
+1;Lentil Soup
+2;Vegetarian Pizza
+3;Tiramisu
+4;Smoothie
+1;Cream of Mushroom Soup
+2;Shrimp Scampi
+3;Fruit Salad
+4;Mango Lassi
+1;Gazpacho
+2;Chicken Parmesan
+3;Panna Cotta
+4;Hot Chocolate
+1;Pho
+2;Beef Tacos
+3;Strawberry Shortcake
+4;Green Tea
+1;Butternut Squash Soup
+2;Vegetable Curry
+3;Creme Brulee
+4;Soda
+1;Clam Chowder
+2;Pork Chops
+3;Banana Bread
+4;Cappuccino
+1;French Onion Soup
+2;Chicken Fajitas
+3;Carrot Cake
+4;Iced Coffee
+1;Potato Leek Soup
+2;Salmon Teriyaki
+3;Rice Pudding
+4;Chai Tea
+1;Beet Soup
+2;Eggplant Parmesan
+3;Key Lime Pie
+4;Pineapple Juice
+1;Cabbage Soup
+2;BBQ Ribs
+3;Mango Sorbet
+4;Coconut Water
+1;Hot and Sour Soup
+2;Lamb Kebabs
+3;Chocolate Mousse
+4;Sparkling Water
+1;Pumpkin Soup
+2;Chicken Shawarma
+3;Cinnamon Rolls
+4;Milkshake
+1;Chilled Avocado Soup
+2;Beef Burgers
+3;Peach Cobbler
+4;Limeade
+1;Italian Wedding Soup
+2;Teriyaki Chicken
+3;Red Velvet Cake
+4;Arnold Palmer
+1;Corn Chowder
+2;Vegetable Lasagna
+3;Pistachio Ice Cream
+4;Iced Latte
+1;Spinach and Artichoke Soup
+2;Sushi Rolls
+3;Coconut Cake
+4;Pomegranate Juice
+1;Chicken Tortilla Soup
+2;Tofu Stir-Fry
+3;Raspberry Sorbet
+4;Ginger Ale
+1;Seafood Bisque
+2;Cajun Jambalaya
+3;Cherry Cheesecake
+4;Watermelon Smoothie
+1;Broccoli Cheddar Soup
+2;Beef Stroganoff
+3;Blueberry Pancakes
+4;Raspberry Lemonade
+1;Goulash Soup
+2;Pad Thai
+3;Lemon Sorbet
+4;Mojito
+1;Hot and Spicy Ramen
+2;Chicken Enchiladas
+3;Pecan Pie
+4;Iced Matcha Latte
+1;Matzo Ball Soup
+2;Sausage and Peppers
+3;Cannoli
+4;Grapefruit Juice
+1;Vichyssoise
+2;Egg Fried Rice
+3;Oreo Milkshake
+4;Rooibos Tea
+1;Avgolemono Soup
+2;Beef Wellington
+3;Pumpkin Roll
+4;Lemon Iced Tea
+1;Tom Yum Soup
+2;Beef and Broccoli
+3;Mint Chocolate Chip Ice Cream
+4;Blueberry Smoothie
+1;French Lentil Soup
+2;Chicken Pot Pie
+3;Hazelnut Torte
+4;Strawberry Lemonade
+1;Cauliflower Soup
+2;Pasta Primavera
+3;Rocky Road Ice Cream
+4;Cranberry Juice
+1;Tom Kha Gai
+2;Vegetable Bibimbap
+3;Coconut Flan
+4;Black Coffee
+1;Split Pea Soup
+2;Hawaiian Pizza
+3;Choco Banana Crepes
+4;Chamomile Tea
+1;Creamy Asparagus Soup
+2;Lobster Bisque
+3;Caramel Popcorn
+4;Peach Iced Tea
+1;Escarole and Bean Soup
+2;Chicken Quesadillas
+3;Rum Raisin Ice Cream
+4;Almond Milk
+1;Turkish Lentil Soup
+2;Shrimp Fried Rice
+3;Lava Cake
+4;Pineapple Smoothie
+1;Corn and Crab Chowder
+2;Egg Salad Sandwich
+3;Pumpkin Cheesecake
+4;Lemon Lime Soda
+1;Borscht
+2;Chicken Caesar Salad
+3;Mango Sticky Rice
+4;Rosemary Infused Water
+1;Sundubu Jjigae
+2;Quinoa Salad
+3;Baklava
+4;Strawberry Mint Lemonade
+1;Creamy Tomato Basil Soup
+2;Pulled Pork Sandwich
+3;Chocolate Chip Cookies
+4;Iced Green Tea
+1;Cabbage Roll Soup
+2;Beef Tandoori
+3;Pineapple Upside-Down Cake
+4;Orange Creamsicle Smoothie
+1;Shrimp and Corn Chowder
+2;Caprese Salad
+3;Gingerbread House
+4;Blackberry Mojito
+1;Carrot Ginger Soup
+2;Chicken Satay Skewers
+3;Fudge Brownies
+4;Papaya Lassi
+1;Harira
+2;Stuffed Bell Peppers
+3;Pumpkin Spice Latte
+4;Cucumber Mint Cooler
+1;Wild Mushroom Risotto
+2;Chicken Katsu Curry
+3;Mango Salsa
+4;Watermelon Lemonade
+1;Tomato Basil Bruschetta
+2;Chicken Piccata
+3;Raspberry Swirl Cheesecake
+4;Pina Colada
+1;Beef and Barley Soup
+2;Cajun Chicken Pasta
+3;Lemon Meringue Pie
+4;Iced Chai Latte
+1;Sweet Potato and Lentil Stew
+2;Sesame Crusted Tuna
+3;Mint Mojito Sorbet
+4;Sparkling Cranberry Punch
+1;Egg Drop Soup
+2;Roasted Vegetable Lasagna
+3;Banana Foster
+4;Turmeric Ginger Tea
+1;Wonton Soup
+2;Thai Green Curry
+3;Pistachio Baklava
+4;Blue Lagoon Cocktail
+1;White Bean and Kale Soup
+2;Chicken Teriyaki Bowl
+3;Cookies and Cream Milkshake
+4;Passion Fruit Juice
+1;Cucumber Gazpacho
+2;Pulled Chicken Tacos
+3;Cherry Clafoutis
+4;Lemon Sorbet
+1;Wild Rice and Mushroom Soup
+2;Beef and Guinness Stew
+3;Black Forest Cake
+4;Iced Pomegranate Green Tea
+1;Moroccan Lentil Soup
+2;Salmon Croquettes
+3;Caramel Apple Pie
+4;Espresso Martini
+1;Corn and Potato Chowder
+2;Lemon Garlic Shrimp
+3;Red Velvet Pancakes
+4;Peach Bellini
+1;Spicy Black Bean Soup
+2;Vegetarian Burritos
+3;Mango Tango Sorbet
+4;Cucumber Mint Lemonade
+1;Ginger Carrot Soup
+2;Chicken Gyro
+3;S'mores Pie
+4;Hibiscus Iced Tea
+1;Hot and Sour Noodle Soup
+2;Vegetable Biryani
+3;Pistachio Gelato
+4;Coconut Mojito
+1;Pumpkin and Sage Risotto
+2;Honey Glazed Salmon
+3;Strawberry Rhubarb Crisp
+4;Lavender Lemonade
+1;Spanish Gazpacho
+2;Stuffed Portobello Mushrooms
+3;Cranberry Bliss Bars
+4;Cucumber Basil Sparkler
+1;Roasted Red Pepper Soup
+2;Lemon Herb Chicken
+3;Chocolate Covered Strawberries
+4;Raspberry White Mocha
+1;Shrimp and Asparagus Risotto
+2;Greek Moussaka
+3;Cinnamon Swirl Bread
+4;Blue Raspberry Slush
+1;Creamy Cauliflower and Cheese Soup
+2;Teriyaki Tofu Bowl
+3;Chocolate Hazelnut Tart
+4;Mint Julep
+1;Chicken and Wild Rice Casserole
+2;Shrimp Pad Thai
+3;Mango Coconut Popsicles
+4;Turkish Coffee
+1;Zucchini and Basil Soup
+2;Beef Bulgogi
+3;Raspberry Almond Tart
+4;Watermelon Basil Cooler
