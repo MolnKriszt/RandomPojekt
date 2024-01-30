@@ -58,14 +58,6 @@ namespace Test3
             {
                 Console.WriteLine("Szólista:  " + string.Join(", ", szavak));
             }
-
-
-            string[] szavak2 = ReadWordListFromFile("huword.txt", wordCount);
-
-            if (szavak2.Length > 0)
-            {
-                Console.WriteLine("Szólista:  " + string.Join(", ", szavak2));
-            }
         }
 
         static string[] ReadWordListFromFile(string word,int wordCount)
