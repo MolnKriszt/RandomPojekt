@@ -12,7 +12,7 @@ namespace Test3
 
     {
         internal static string[] wordList;
-        public static Random random = new Random();
+        //public static Random random = new Random();
         static MyRandom()
         {
            langChange(lang);
