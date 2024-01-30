@@ -52,11 +52,19 @@ namespace Test3
            
 
 
-            string[] szavak = ReadWordListFromFile("huword.txt", wordCount);
+            string[] szavak = ReadWordListFromFile("enword.txt", wordCount);
 
             if (szavak.Length > 0)
             {
                 Console.WriteLine("Szólista:  " + string.Join(", ", szavak));
+            }
+
+
+            string[] szavak2 = ReadWordListFromFile("huword.txt", wordCount);
+
+            if (szavak2.Length > 0)
+            {
+                Console.WriteLine("Szólista:  " + string.Join(", ", szavak2));
             }
         }
 
