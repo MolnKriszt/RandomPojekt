@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,32 +10,29 @@ namespace Test3
 {
     static internal partial class MyRandom
     {
-        static public void RandomNumber()
+        static Random random = new Random();
+        static public int RandomInt()
         {
-            Random random = new Random();
+            return random.Next(int.MinValue , int.MaxValue);
+        }
 
-            var randomNumbers = Enumerable.Range(1, 10)
-                                          .Select(_ => random.Next(1, 101));
+        static public double RandomDouble()
+        {
+            //double min = 1;
+            //double max = 5;
+            double min = Math.Pow(10, -20);//double.MinValue;
+            double max = Math.Pow(10, 20);
+            return min + (random.NextDouble() * (max - min));
+        }
 
-            Console.WriteLine("Véletlen számok:");
-            foreach (var number in randomNumbers)
+        static public void RandomInt(int from, int to)
+        {
+            if (from > to)
             {
-                Console.Write(number + " ");
+                return;
             }
+            int generatedValue = random.Next(from, to + 1);
 
-
-            var randomDecimals = Enumerable.Range(1, 2)
-                .Select(_ => random.NextDouble())
-                .ToArray();
-
-            Console.WriteLine("\nVéletlenszerű tizedes számok:");
-            foreach (var number in randomDecimals)
-            {
-                Console.WriteLine(number.ToString("0.00"));
-            }
-
-            Console.ReadLine();
-            
         }
     }
 }
