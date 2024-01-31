@@ -51,5 +51,16 @@ namespace Test3
             int randomIndex = random.Next(0, foodlist.Count);
             return foodlist.ElementAt(randomIndex);
         }
+
+        static public Tuple<int, string> RandomFood(string fooddrink)
+        {
+            if (foodlist.Count == 0)
+            {
+                return null;
+            }
+            Random random = new Random();
+            int randomIndex = random.Next(0, foodlist.Count);
+            return foodlist.ElementAt(randomIndex);
+        }
     }
 }
