@@ -11,7 +11,7 @@ namespace Test3
     {
         static void Main(string[] args)
         {
-            MyRandom.lang = "en";
+            MyRandom.lang = "hu";
             MyRandom.langChange(MyRandom.lang);
 
             FoodTest ft = new FoodTest();

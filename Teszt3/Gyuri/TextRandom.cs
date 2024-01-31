@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,33 +44,48 @@ namespace Test3
         }
 
 
-        static public void RandomWord(int wordCount)
+        static public string RandomWord()
         {
-            Console.WriteLine("RandomText");
-
-            string[] szavak = ReadWordListFromFile(lang + "word.txt", wordCount);
-
-            if (szavak.Length > 0)
-            {
-                Console.WriteLine("Szólista:  " + string.Join(", ", szavak));
-            }
+            Random random = new Random();
+            return wordList[random.Next(0,wordList.Length)];
         }
 
-        static string[] ReadWordListFromFile(string word,int wordCount)
+        static public List<string> RandomWord(int wordCount)
         {
-            string[] sorok = File.ReadAllLines(word);
-
-            var words = new List<string>();
-
-            var random = new Random();
-            sorok = sorok.OrderBy(x => random.Next()).ToArray();
-
-            for (int i = 0; i < sorok.Length && i < wordCount; i++)
+            Random random = new Random();
+            List<string> result = new List<string>();
+            for (int i = 0; i < wordCount; i++)
             {
-                words.Add(sorok[i]);
+                result.Add(wordList[random.Next(0, wordList.Length)]);
             }
-           
-            return words.ToArray();
+            return result;
         }
-    }   
+
+
+
+        public static string RandomSentence(int wordCount)
+        {
+            Random random = new Random();
+            string sentence = wordList[random.Next(0, wordList.Length)];
+
+            for (int i = 1 ; i < wordCount; i++)
+            {
+                sentence += " " + wordList[random.Next(0, wordList.Length)];
+            }
+            return sentence;
+        }
+
+        //public static void RandomParagraph(int sentenceCount, int wordsPerSentence)
+        //{
+
+
+        //    for (int i = 0; i < sentenceCount; i++)
+        //    {
+        //        RandomSentence(wordsPerSentence);
+        //    }
+        //}
+
+
+
+    }
 }
