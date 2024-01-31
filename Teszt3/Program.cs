@@ -12,6 +12,7 @@ namespace Test3
         static void Main(string[] args)
         {
             MyRandom.lang = "en";
+            MyRandom.langChange(MyRandom.lang);
 
             FoodTest ft = new FoodTest();
             ft.Test();
