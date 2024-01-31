@@ -10,7 +10,7 @@ namespace Test3
     {
         internal void Test()
         {
-            MyRandom.RandomNumber();
+            Console.WriteLine("asd:{0}", MyRandom.RandomInt());
         }
     }
 }
