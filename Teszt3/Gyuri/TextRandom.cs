@@ -14,7 +14,6 @@ namespace Test3
         public static string[] wordList;
 
         
-        //public static Random random = new Random();
         static MyRandom()
         {
            langChange(lang);
@@ -26,8 +25,7 @@ namespace Test3
             TextReading();
             FoodReading();
 
-            //List<string> randomWordList = RandomWordList(1);
-            //Console.WriteLine("Generált szólista: ");
+
         }
 
 
@@ -49,10 +47,7 @@ namespace Test3
         {
             Console.WriteLine("RandomText");
 
-           
-
-
-            string[] szavak = ReadWordListFromFile("enword.txt", wordCount);
+            string[] szavak = ReadWordListFromFile(lang + "word.txt", wordCount);
 
             if (szavak.Length > 0)
             {
