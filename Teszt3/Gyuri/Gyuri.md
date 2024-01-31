@@ -21,7 +21,7 @@ public static void BeolvasNeve()
 - RandomWord()
     - generál egy random szót.
 
-- RandomWordList()
+- RandomWord(int )
     - generál egy random szó listát ismétlődés nélkül, mi adjuk meg hogy hány szóból álljon.
 
 - RandomWordListRecurring()
