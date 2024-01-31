@@ -7,7 +7,7 @@
 - RandomDouble()
 	* Generál egy telejsen véletlen nem egész számot és azt visszadja.
 ### Veletlen szám értékeke között
-- RandomIntBetween()
+- RandomInt()
 	* Generál egy random egész számot két adott érték között amiket be adunk neki és a kapott számot visszadja.
 
 - RandomDoubleBetween()
