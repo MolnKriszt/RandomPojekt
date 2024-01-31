@@ -10,9 +10,14 @@ namespace Test3
     {
         internal void Test()
         {
-            MyRandom.RandomWord(10);
+            //int sentenceCount = 2; 
+            //int wordsPerSentence = 5; 
 
-            //MyRandom.RandomWordList(1);
+
+            
+            Console.WriteLine(MyRandom.RandomSentence(5));
+            //MyRandom.RandomSentence(8);   
+            //MyRandom.RandomParagraph(sentenceCount, wordsPerSentence);
         }
     }
 }

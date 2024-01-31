@@ -7,10 +7,10 @@
 - RandomDouble()
 	* Generál egy telejsen véletlen nem egész számot és azt visszadja.
 ### Veletlen szám értékeke között
-- RandomInt()
+- RandomInt(int from, int to)
 	* Generál egy random egész számot két adott érték között amiket be adunk neki és a kapott számot visszadja.
 
-- RandomDoubleBetween()
+- RandomDouble(double from, double to)
 	* Generál egy random nem egész számot két adott érték között amiket be adunk neki és a kapott számot visszadja.
 ### Véletlen számlista
 - RandomIntList()
