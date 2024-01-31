@@ -52,7 +52,7 @@ namespace Test3
         {
             if (useMonths)
             {
-                Random random = new Random();
+
                 int range = (end - start);
 
                 int randomMonth = rand.Next(range);
@@ -64,7 +64,7 @@ namespace Test3
             }
             else
             {
-                Random random = new Random();
+
                 int range = (end - start) * 365;
 
                 int randomDays = rand.Next(range);
