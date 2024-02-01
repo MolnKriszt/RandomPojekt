@@ -9,7 +9,9 @@ namespace Test3
 {
     static internal partial class MyRandom
     {
-
+        /// <summary>
+        /// Here we generate a random date from 1900-2099
+        /// </summary>
         public static DateTime RandomDate()
         {
             DateTime start = new DateTime(1900,1,1);
@@ -20,9 +22,11 @@ namespace Test3
 
             return randomDate;
         }
-        private static Random rand = new Random();
 
 
+        /// <summary>
+        /// Here we generate a random date from a specified year
+        /// </summary>
         public static DateTime RandomDate(int year)
         {
             
@@ -33,7 +37,7 @@ namespace Test3
             int range = (end - start).Days;
 
 
-            int randomDays = rand.Next(range + 1);
+            int randomDays = random.Next(range + 1);
 
             DateTime randomDate = start.AddDays(randomDays);
 
@@ -42,18 +46,18 @@ namespace Test3
             
         }
 
-
+        /// <summary>
+        /// Here we generate a random date between two specified months or years
+        /// </summary>
         public static DateTime RandomDate(int start, int end, bool useMonths = false)
         {
             if (useMonths)
             {
-
-                int range = (end - start);
-
-                int randomMonth = rand.Next(range);
+                int range = (end - start + 1);
+                int randomMonth = random.Next(range);
 
                 DateTime startDate = new DateTime(start, 1, 1);
-                DateTime randomDate = startDate.AddDays(randomMonth);
+                DateTime randomDate = startDate.AddMonths(randomMonth - 1);
 
                 return randomDate;
             }
@@ -62,7 +66,7 @@ namespace Test3
 
                 int range = (end - start) * 365;
 
-                int randomDays = rand.Next(range);
+                int randomDays = random.Next(range);
 
                 DateTime startDate = new DateTime(start, 1, 1);
                 DateTime randomDate = startDate.AddDays(randomDays);

@@ -13,7 +13,7 @@ namespace Test3
         internal void Test()
         {
 
-            Console.WriteLine(MyRandom.RandomDate(5, 6, false));
+            Console.WriteLine("Generált dátum:" + MyRandom.RandomDate( 4, 6, false).ToString("yyyy-MM-dd"));
         }
     }
 }
