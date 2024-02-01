@@ -3,21 +3,22 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
 
 namespace Test3
 {
-    static internal partial class MyRandom 
+    static internal partial class MyRandom
 
     {
         public static string[] wordList;
 
-        
+
         static MyRandom()
         {
-           langChange(lang);
+            langChange(lang);
         }
 
         internal static void langChange(string plang)
@@ -43,49 +44,85 @@ namespace Test3
             }
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         static public string RandomWord()
         {
-            Random random = new Random();
-            return wordList[random.Next(0,wordList.Length)];
+            return wordList[random.Next(0, wordList.Length)];
         }
-
-        static public List<string> RandomWord(int wordCount)
+        /// <summary>
+        /// ghgfhgfhgf
+        /// </summary>
+        /// <param name="wordCount"></param>
+        /// <param name="Distinct"></param>
+        /// <returns></returns>
+        static public List<string> RandomWord(int wordCount, bool Distinct)
         {
-            Random random = new Random();
             List<string> result = new List<string>();
-            for (int i = 0; i < wordCount; i++)
+            if (!Distinct)
             {
-                result.Add(wordList[random.Next(0, wordList.Length)]);
+                for (int i = 0; i < wordCount; i++)
+                {
+                    result.Add(wordList[random.Next(0, wordList.Length)]);
+                }
+            }
+            else
+            {
+                for (int i = 0; i < wordCount; i++)
+                {
+                    string generatedword = wordList[random.Next(0, wordList.Length)];
+                    if (result.Contains(generatedword))
+                    {
+                        i--;
+                    }
+                    else
+                    {
+                        result.Add(generatedword);
+                    }
+                }
             }
             return result;
         }
 
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="wordCount"></param>
+        /// <returns></returns>
         public static string RandomSentence(int wordCount)
         {
-            Random random = new Random();
             string sentence = wordList[random.Next(0, wordList.Length)];
 
-            for (int i = 1 ; i < wordCount; i++)
+            for (int i = 1; i < wordCount; i++)
             {
-                sentence += " " + wordList[random.Next(0, wordList.Length)];
+                sentence += ", " + wordList[random.Next(0, wordList.Length)];
             }
             return sentence;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="SentenceCount"></param>
+        /// <param name="WordperSentence"></param>
+        /// <returns></returns>
+        public static string RandomParagraph(int SentenceCount, int WordperSentence)
+        {
+            string paragraph = "";
 
-        //public static void RandomParagraph(int sentenceCount, int wordsPerSentence)
-        //{
+            for (int i = 0; i < SentenceCount; i++)
+            {
+                string sentence = wordList[random.Next(0, wordList.Length)];
 
-
-        //    for (int i = 0; i < sentenceCount; i++)
-        //    {
-        //        RandomSentence(wordsPerSentence);
-        //    }
-        //}
-
-
-
+                for (int i2 = 1; i2 < WordperSentence; i2++)
+                {
+                    sentence += " " + wordList[random.Next(0, wordList.Length)];
+                }
+                paragraph += sentence + "\n";
+            }
+            return paragraph;
+        }
     }
 }
