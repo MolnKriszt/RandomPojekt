@@ -22,7 +22,7 @@
 - RandomInt( int ListCount , int from, int to,bool Distinct )
 	* Generál egy random egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. A Distinct nevű változótól függően a lista számai ismétlődhetnek.
 
-- RandomDoubleListBetweenRecurring(int ListCount , double from, double to,bool Distinct )
+- RandomDouble(int ListCount , double from, double to,bool Distinct )
     * Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. A Distinct nevű változótól függően a lista számai ismétlődhetnek.
 
 # Ha valamit nem értesz írj rám.
