@@ -21,16 +21,13 @@ public static void BeolvasNeve()
 - RandomWord()
     - generál egy random szót.
 
-- RandomWord(int )
-    - generál egy random szó listát ismétlődés nélkül, mi adjuk meg hogy hány szóból álljon.
-
-- RandomWordListRecurring()
-    - generál egy random szó listát, mi adjuk meg hogy hány szóból álljon.
+- RandomWord(int ListCount, bool Distinct)
+    - generál egy random szó listát, mi adjuk meg hogy hány szóból álljon. A Distinct nevű változótól függően a lista szavai ismétlődhetnek.
 
 ### Véletlen mondat
-- RandomSentence()
+- RandomSentence(int WordCount)
     - generál egy random szavakból álló mondatot, mi adjuk meg hogy hány szóból álljon.
 
 ### Véletlen bekezdés
-- RandomParagraph()
+- RandomParagraph(int WordperSentence, int SentenceCount)
     - generál egy random mondatokból álló bekezdést, mi adjuk meg hogy hány mondatból álljon és hogy a mondatok hány szóból álljanak.
