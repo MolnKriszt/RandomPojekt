@@ -27,11 +27,6 @@ namespace Test3
         {
             
 
-            if (year >= DateTime.Now.Year)
-            {
-                throw new ArgumentException("RequestedDate cannot be greater than or equal to the current date.");
-            }
-
             DateTime start = new DateTime(year, 1, 1);
             DateTime end = new DateTime(year, 12, 31);
 
