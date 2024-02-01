@@ -10,14 +10,20 @@ namespace Test3
     {
         internal void Test()
         {
-            //int sentenceCount = 2; 
-            //int wordsPerSentence = 5; 
 
 
-            
-            Console.WriteLine(MyRandom.RandomSentence(5));
-            //MyRandom.RandomSentence(8);   
-            //MyRandom.RandomParagraph(sentenceCount, wordsPerSentence);
+
+            //List<string> words = MyRandom.RandomWord(9,true);
+            //foreach (string i in words)
+            //{
+            //    Console.WriteLine("{0}",i);
+            //}
+
+
+            int SentenceCount = 2;
+            int WordperSentence = 7;
+            Console.WriteLine(MyRandom.RandomParagraph(SentenceCount, WordperSentence));
+
         }
     }
 }
