@@ -7,31 +7,22 @@
 - RandomDouble()
 	* Generál egy telejsen véletlen nem egész számot és azt visszadja.
 ### Veletlen szám értékeke között
-- RandomInt(int from, int to)
+- RandomInt( int from, int to )
 	* Generál egy random egész számot két adott érték között amiket be adunk neki és a kapott számot visszadja.
 
-- RandomDouble(double from, double to)
+- RandomDouble( double from, double to )
 	* Generál egy random nem egész számot két adott érték között amiket be adunk neki és a kapott számot visszadja.
 ### Véletlen számlista
-- RandomIntList()
-	* Generál egy random egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
+- RandomInt( int ListCount, bool Distinct )
+	* Generál egy random egész számokból álló listát. Azt hogy a lista hány számból álljon azt is mi adjuk meg. A Distinct nevű változótól függően a lista számai ismétlődhetnek.
 
-- RandomIntListRecurring()
-	* Generál egy random egész számokból álló listát. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
+- RandomDouble( int ListCount, bool Distinct )
+	* Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon azt is mi adjuk meg. A Distinct nevű változótól függően a lista számai ismétlődhetnek.
 
-- RandomDoubleList()
-	* Generál egy random nem egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
+- RandomInt( int ListCount , int from, int to,bool Distinct )
+	* Generál egy random egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. A Distinct nevű változótól függően a lista számai ismétlődhetnek.
 
-- RandomDoubleListRecurring()
-	* Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon azt is mi adjuk meg.
-
-- RandomIntListBetweenRecurring()
-	* Generál egy random egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. 
-
-- RandomIntListBetween()
-	* Generál egy random egész számokból álló listát ismétlődés nélkül. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. Hogyha az első érték (hány számból álljon) nagyobb mint a második és a harmadik különbsége akkor írjon ki hibaüzenetet.
-
-- RandomDoubleListBetweenRecurring()
-    * Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. 
+- RandomDoubleListBetweenRecurring(int ListCount , double from, double to,bool Distinct )
+    * Generál egy random nem egész számokból álló listát. Azt hogy a lista hány számból álljon mi adjuk meg és azt is hogy milyen értékek között generálja a lista számait. A Distinct nevű változótól függően a lista számai ismétlődhetnek.
 
 # Ha valamit nem értesz írj rám.
