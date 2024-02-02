@@ -11,7 +11,13 @@ namespace Test3
         internal void Test()
         {
 
-            Console.WriteLine($"Random surname: {MyRandom.RandomName()}");
+            //Console.WriteLine($"Random surname: {MyRandom.RandomName(1,"f")}");
+            int count = 1;
+            foreach (var i in MyRandom.RandomName(16, true))
+            {
+                Console.WriteLine($"{count}    {i}");
+                count++;
+            }
         }
     }
 }

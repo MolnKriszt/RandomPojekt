@@ -11,7 +11,7 @@ namespace Test3
     {
         static void Main(string[] args)
         {
-            MyRandom.lang = "hu";
+            MyRandom.lang = "en";
             MyRandom.langChange(MyRandom.lang);
 
             FoodTest ft = new FoodTest();
@@ -24,8 +24,10 @@ namespace Test3
             nt.Test();
             NameTest nmt = new NameTest();
             nmt.Test();
-            
-            
+            CitiesTest ct = new CitiesTest();
+            ct.Test();
+
+
             Console.ReadLine();
         }
     }

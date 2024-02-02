@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Krisztián\RandomCities\CitiesTest.cs" />
+    <Compile Include="Krisztián\RandomCities\RandomCity.cs" />
     <Compile Include="Krisztián\RandomFood\FoodTest.cs" />
     <Compile Include="Krisztián\RandomFood\FoodRandom.cs" />
     <Compile Include="Krisztián\RandomName\NameTest.cs" />

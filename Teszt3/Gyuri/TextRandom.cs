@@ -27,6 +27,7 @@ namespace Test3
             TextReading();
             FoodReading();
             NamesReading();
+            CityReading();
 
         }
 
