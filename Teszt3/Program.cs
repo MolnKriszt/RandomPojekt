@@ -22,6 +22,8 @@ namespace Test3
             tt.Test();
             NumberTest nt = new NumberTest();
             nt.Test();
+            NameTest nmt = new NameTest();
+            nmt.Test();
             
             
             Console.ReadLine();

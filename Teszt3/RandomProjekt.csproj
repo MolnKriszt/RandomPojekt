@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Krisztián\RandomFood\FoodTest.cs" />
     <Compile Include="Krisztián\RandomFood\FoodRandom.cs" />
+    <Compile Include="Krisztián\RandomName\NameTest.cs" />
     <Compile Include="Krisztián\RandomName\NameRandom.cs" />
     <Compile Include="Pisti\DateTest.cs" />
     <Compile Include="Gergő\NumberRandom.cs" />
