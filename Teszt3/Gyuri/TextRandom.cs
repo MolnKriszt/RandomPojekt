@@ -26,7 +26,7 @@ namespace Test3
             lang = plang;
             TextReading();
             FoodReading();
-
+            NamesReading();
 
         }
 
