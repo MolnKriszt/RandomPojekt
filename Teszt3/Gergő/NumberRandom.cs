@@ -54,17 +54,94 @@ namespace Test3
         /// <param name="to"></param>
         /// <returns></returns>
         /// <exception cref="ArgumentException"></exception>
-        static double RandomDouble(double from, double to)
+        static public double RandomDouble(double from, double to)
         {
-            if (from >= to)
+            if (from > to)
             {
-                throw new ArgumentException("igen nem talán lyó");
+                throw new ArgumentException("'from' can't be bigger then 'to' .");
             }
 
-            double randomValue = random.NextDouble() * (to - from) + from;
-            return randomValue;
+            double min = from;
+            double max = to;
+            return min + (random.NextDouble() * (max - min));
+
         }
 
+        static public List<int> RandomInt(int ListCount) 
+        {
+            List<int> results = new List<int>();
+
+            for (int i = 0; i < ListCount; i++)
+            {
+                results.Add(RandomInt());
+            }
+            return results;
+
+        }
+        static public List<int> RandomInt(int ListCount, bool Distinct)
+        {
+            List<int> results = new List<int>();
+
+            for (int i = 0; i < ListCount; i++)
+            {
+               int generatedInt = RandomInt();
+                if (!Distinct)
+                {
+                    results.Add(generatedInt);
+                }
+                else
+                {
+                    if (results.Contains(generatedInt))
+                    {
+                        i--;
+                    }
+                    else
+                    {
+                        results.Add(generatedInt);
+                    }
+                }
+                
+            }
+            return results;
+        }
+
+        static public List<double> RandomDouble(int ListCount)
+        {
+            List<double> results = new List<double>();
+
+            for (int i = 0; i < ListCount; i++)
+            {
+                results.Add(RandomDouble());
+            }
+            return results;
+        }
+
+        static public List<double> RandomDouble(int ListCount, bool Distinct)
+        {
+            List<double> results = new List<double>();
+
+            for (int i = 0; i < ListCount; i++)
+            {
+                double generatedDouble = RandomDouble();
+                if (!Distinct)
+                {
+                    results.Add(generatedDouble);
+                }
+                else
+                {
+                    if (results.Contains(generatedDouble))
+                    {
+                        i--;
+                    }
+                    else
+                    {
+                        results.Add(generatedDouble);
+                    }
+                }
+
+            }
+            return results;
+        }
 
     }
 }

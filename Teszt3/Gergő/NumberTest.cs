@@ -10,8 +10,12 @@ namespace Test3
     {
         internal void Test()
         {
-            Console.WriteLine("asd:{0}", MyRandom.RandomDouble(1, 5));
+            var asked = MyRandom.RandomDouble(10, true);
 
+            foreach (var item in asked)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
