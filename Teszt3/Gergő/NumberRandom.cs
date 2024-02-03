@@ -78,6 +78,53 @@ namespace Test3
             return results;
 
         }
+
+        static public List<int> RandomInt(int ListCount,int from, int to)
+        {
+            List<int> results = new List<int>();
+
+            for (int i = 0; i < ListCount; i++)
+            {
+                results.Add(RandomInt(from, to));
+            }
+            return results;
+
+        }
+
+        static public List<int> RandomInt(int ListCount, int from, int to, bool Distinct)
+        {
+            List<int> results = new List<int>();
+
+            for (int i = 0; i < ListCount; i++)
+            {
+                int generatedInt = RandomInt(from, to);
+                if (!Distinct)
+                {
+                    results.Add(generatedInt);
+                }
+                else
+                {
+                    if (ListCount > to - from)
+                    {
+                        throw new Exception("ListCount cant be bigger that the difference between from and to");
+                    }
+                    else
+                    {
+                        if (results.Contains(generatedInt))
+                        {
+                            i--;
+                        }
+                        else
+                        {
+                            results.Add(generatedInt);
+                        }
+                    }
+                }
+            }
+            return results;
+
+        }
+
         static public List<int> RandomInt(int ListCount, bool Distinct)
         {
             List<int> results = new List<int>();
@@ -112,6 +159,17 @@ namespace Test3
             for (int i = 0; i < ListCount; i++)
             {
                 results.Add(RandomDouble());
+            }
+            return results;
+        }
+
+        static public List<double> RandomDouble(int ListCount,double from, double to)
+        {
+            List<double> results = new List<double>();
+
+            for (int i = 0; i < ListCount; i++)
+            {
+                results.Add(RandomDouble(from,to));
             }
             return results;
         }

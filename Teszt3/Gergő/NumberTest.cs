@@ -10,11 +10,11 @@ namespace Test3
     {
         internal void Test()
         {
-            var asked = MyRandom.RandomDouble(10, true);
+            var asked = MyRandom.RandomInt(2, 1,3,true);
 
             foreach (var item in asked)
             {
-                Console.WriteLine(item);
+                Console.WriteLine($"lofasz: {item}");
             }
         }
     }
