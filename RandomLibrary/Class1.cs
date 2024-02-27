@@ -1,35 +1,35 @@
-﻿global using global::System;
-global using global::System.Collections.Generic;
-global using global::System.IO;
-global using global::System.Linq;
-global using global::System.Net.Http;
-global using global::System.Threading;
-global using global::System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace RandomLibrary
 {
-    static public class MyRandom
+    public static class MyRandom
     {
-        private static List<Tuple<int, string>> foodlist = new List<Tuple<int, string>>();
+        public static List<Tuple<int, string>> foodlist = new List<Tuple<int, string>>();
 
-        private static string[] surnames;
-        private static string[] femalenames;
-        private static string[] malenames;
+        public static string[] surnames;
+        public static string[] femalenames;
+        public static string[] malenames;
 
-        private static string[] cities;
+        public static string[] cities;
 
-        private static string[] wordList;
+        public static string[] wordList;
 
         static Random random = new Random();
         
-        internal static string lang = "hu";
+        public static string lang = "hu";
         
         static MyRandom()
         {
-            langChange(lang);
+            SetLang(lang);
         }
 
-        private static void langChange(string plang)
+        public static void SetLang(string plang)
         {
             lang = plang;
             TextReading();
@@ -39,7 +39,7 @@ namespace RandomLibrary
 
         }
 
-        private static void TextReading()
+        public static void TextReading()
         {
             if (lang == "en")
             {
@@ -51,7 +51,7 @@ namespace RandomLibrary
             }
         }
 
-        private static void FoodReading()
+        public static void FoodReading()
         {
             if (lang == "en")
             {
@@ -77,7 +77,7 @@ namespace RandomLibrary
             }
         }
 
-        private static void NamesReading()
+        public static void NamesReading()
         {
             if (lang == "en")
             {
@@ -93,7 +93,7 @@ namespace RandomLibrary
             }
         }
 
-        private static void CityReading()
+        public static void CityReading()
         {
             if (lang == "en")
             {
@@ -372,17 +372,17 @@ namespace RandomLibrary
 
         //RandomName
 
-        private static string RandomSurname()
+        public static string RandomSurname()
         {
             return surnames[random.Next(0, surnames.Length)];
         }
 
-        private static string RandomFemaleFirstname()
+        public static string RandomFemaleFirstname()
         {
             return femalenames[random.Next(0, femalenames.Length)];
         }
 
-        private static string RandomMaleFirstname()
+        public static string RandomMaleFirstname()
         {
             return malenames[random.Next(0, malenames.Length)];
         }
