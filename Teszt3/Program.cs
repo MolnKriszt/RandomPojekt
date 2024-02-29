@@ -11,8 +11,10 @@ namespace Test3
     {
         static void Main(string[] args)
         {
-            MyRandom.lang = "en";
+            MyRandom.lang = "hu";
             MyRandom.langChange(MyRandom.lang);
+
+            Console.ForegroundColor = ConsoleColor.Green;
 
             Console.WriteLine("\tRandomNumber");
             Console.WriteLine("Random egész szám: {0}", MyRandom.RandomInt());
@@ -33,6 +35,22 @@ namespace Test3
             Console.WriteLine("Random szó lista: {0}", string.Join(", " ,MyRandom.RandomWord(5,false)));
             Console.WriteLine("Random mondat: {0}", MyRandom.RandomSentence(5));
             Console.WriteLine("Random bekezdés: \n{0}",MyRandom.RandomParagraph(3,5));
+            Console.WriteLine("\n\tRandomCities");
+            Console.WriteLine("Random város: {0}",MyRandom.RandomCity());
+            Console.WriteLine("Random város lista: {0}",string.Join(", ", MyRandom.RandomCity(5)));
+            Console.WriteLine("\n\tRandomFood");
+            Console.WriteLine("Random étel/ital: {0}",MyRandom.RandomFood());
+            Console.WriteLine("Random konkrét fajta étel/ital: {0}",MyRandom.RandomFood(2));
+            Console.WriteLine("\n\tRandomName");
+            Console.WriteLine("Random név: {0}",MyRandom.RandomName());
+            Console.WriteLine("Random név: {0} , {1}",MyRandom.RandomName("f"),MyRandom.RandomName("m"));
+            Console.WriteLine("Random név lista: {0}",string.Join(", " ,MyRandom.RandomName(5)));
+            Console.WriteLine("Random név lista: {0}",string.Join(", ",MyRandom.RandomName(5, true)));
+            Console.WriteLine("Random név lista: {0}",string.Join(", ",MyRandom.RandomName(5,"f",true)));
+            Console.WriteLine("RandomDate");
+            Console.WriteLine("Random dátum: {0}",MyRandom.RandomDate());
+            Console.WriteLine("Random dátum konkrét év: {0}",MyRandom.RandomDate(2000));
+            Console.WriteLine("Random dátum két év vagy hónap között: {0}",MyRandom.RandomDate(2000,2002,false));
 
 
 
