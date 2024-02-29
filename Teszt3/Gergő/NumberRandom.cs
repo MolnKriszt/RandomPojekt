@@ -104,7 +104,7 @@ namespace Test3
                 }
                 else
                 {
-                    if (ListCount > to - from)
+                    if (ListCount > to - from +1)
                     {
                         throw new Exception("ListCount cant be bigger that the difference between from and to");
                     }
